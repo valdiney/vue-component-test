@@ -42,7 +42,7 @@ export default {
 
     methods: {
         buscarUsuarios(idCliente) {
-            let url = "https://go.wifiaqui.com.br/api/visitantes/"+idCliente;
+            let url = "retireia a url"+idCliente;
             
             axios(url).then(response => {
                 this.dataUsuarios = response.data;
